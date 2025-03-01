@@ -3,6 +3,9 @@ main = "src/worker.js"
 node_compat = true
 compatibility_date = "2023-09-22"
 
+[observability.logs]
+enabled = true
+
 # [build]
 # command = "npm run build"
 # cwd = "dist"
